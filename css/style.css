@@ -38,9 +38,9 @@ a {
 } 
 
 
-#opgg {
+/*#opgg {
     
-} 
+} */
 
 .rech {
     background: #1F8ECD;
@@ -48,7 +48,7 @@ a {
 
 #xr {
     display: block;
-    width: 50vw;
+    width: 26.875em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,10 +56,16 @@ a {
 .search {
     display: flex;
     justify-content: center;
+    padding-bottom: 1em;
 }
 
 #recherche{
+    color: #555e5e;
+    border-radius: 5%;
+    border: none;
     background: #DBF0FC;
+    padding-left: 2em;
+    padding-right: 6em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -112,6 +118,10 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.souligner:hover{
+    text-decoration: underline;
 }
 
 footer ul {
