@@ -47,6 +47,8 @@ a {
 }
 
 #xr {
+    padding-top: 6.2em;
+    padding-bottom: 2.275em;
     display: block;
     width: 26.875em;
     margin-left: auto;
@@ -60,14 +62,17 @@ a {
 }
 
 #recherche{
-    color: #555e5e;
-    border-radius: 5%;
+    font-family: helvetica, sans-serif;
+    font-size: 1.125em;
+    color: #444;
+    border-radius: 0.250em;
     border: none;
     background: #DBF0FC;
-    padding-left: 2em;
-    padding-right: 6em;
+    padding-left: 1.5em;
+    padding-right: 15em;
     padding-top: 1em;
     padding-bottom: 1em;
+    box-shadow: 2px 2px rgba(0,0,0,0.2); 
 }
 
 .bordel {
@@ -80,6 +85,7 @@ h3 {
 }
 
 #h2 {
+    padding-top: 1em;
     margin-left: auto;
     margin-right: auto;
     font-family: Helvetica, sans-serif;
@@ -93,6 +99,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 3em;
 }
 
 .imgs h3 {
