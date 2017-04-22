@@ -60,7 +60,7 @@ header {
     margin-right: auto;
 }
 
-.search {
+#search {
     display: flex;
     justify-content: center;
     padding-bottom: 1em;
