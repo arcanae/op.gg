@@ -9,5 +9,5 @@ We need to use :
 
  - [x] an image
  - [x] flexboxes
- - [ ] forms
+ - [x] forms
  - [x] links
