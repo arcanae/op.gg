@@ -20,49 +20,49 @@
 <body>
     <header>
             <ul id="linav">
-                <li><a href="https://euw.op.gg/champion/statistics" style onclick>Champion Analytics <img src="images/mny.gif"></a></li>
+                <li><a href="https://euw.op.gg/champion/statistics" style onclick>Champion Analytics <img src="images/mny.gif" alt="new"></a></li>
                 <li><a href="https://euw.op.gg/statistics/champion/" style onclick>Statistics</a></li>
                 <li><a href="https://euw.op.gg/ranking/ladder/" style onclick>Leaderboards</a></li>
                 <li><a href="https://euw.op.gg/spectate/pro/" style onclick>Pro Matches</a></li>
                 <li id="select">
                     <form method="post" action="traitement.php">
-                        <select name="languet" id="languet">
-                            <option value="english">English</option>
-                            <option value="français">Français</option>
+                        <select name="languet" id="languet" onChange="document.location = this.value">
+                            <option value="index.html">English</option>
+                            <option value="fr/index.html">Français</option>
                         </select>
                     </form>
                 </li>
             </ul>
-            <!--    <img id="opgg" src="images/Icon-72.png" width="30px" title="Site originale"> -->
+            <!--    <img id="opgg" src="images/Icon-72.png" width="30px" title="Site originale" alt="Origine"> -->
     </header>
 
     <main>
         <section class="rech">
-            <img id="xr" src="images/xr.PNG" title="Rakan, The Charmer & Xayah, The Rebel">
+            <img id="xr" src="images/xr.PNG" title="Rakan, The Charmer & Xayah, The Rebel" alt="Xayah & Rakan">
             <form class="search" id="search" method="post" action="traitement.php">
                 <input type="text" name="recherche" id="recherche" placeholder="Name1, Name2, Name3,..."/>
             </form>
         </section>
 
         <section class="articles">
-            <span class="h2bg">
+            <div class="h2bg">
                 <p id="h2">OP.GG provides data insights to millions of League of Legends gamers worldwide</p>
-            </span>
+            </div>
 
             <div class="imgs">
                 <figure>
                     <h3>Live Games</h3>
-                    <a href="https://euw.op.gg/summoner/userName=Lvl%2021%20Glaceon%20"><img src="images/liveg.png"></a>
+                    <a href="https://euw.op.gg/summoner/userName=Lvl%2021%20Glaceon%20"><img src="images/liveg.png" alt="Live Games"></a>
                     <p>Click the “Live Game” button during a game to see stats and other information for summoners in the match</p>
                 </figure>
                 <figure>
                     <h3>Match Details</h3>
-                    <a href="https://euw.op.gg/summoner/userName=Lvl%2021%20Glaceon%20"><img src="images/builds.png"></a>
+                    <a href="https://euw.op.gg/summoner/userName=Lvl%2021%20Glaceon%20"><img src="images/builds.png" alt="Match Details"></a>
                     <p>See how other summoners choose their items and builds at a glance</p>
                 </figure>
                 <figure>
                     <h3>Champion Analytics</h3>
-                    <a href="https://euw.op.gg/champion/__randomchampion__/statistics/"><img src="images/champ.png"></a>
+                    <a href="https://euw.op.gg/champion/__randomchampion__/statistics/"><img src="images/champ.png" alt="Analytics"></a>
                     <p>Improve your League skills by using our champion analytics tool containing data based on millions of
                         games
                     </p>
@@ -77,18 +77,18 @@
             <li class="souligner"><a href="https://euw.op.gg/about/logos/">Logo History</a></li>
             <li>
                 <form method="post" action="traitement.php">
-                    <select name="languet" id="langueb">
-                        <option value="english">English</option>
-                        <option value="français">Français</option>
+                    <select name="langueb" id="langueb" onChange="document.location = this.value">
+                        <option value="index.html">English</option>
+                        <option value="fr/index.html">Français</option>
                     </select>
                 </form>
             </li>
             <li>
-                <a href="https://twitter.com/globalopgg"><img src="images/twitter.png" title="Twitter"></a>
-                <a href="https://www.instagram.com/opgginc/"><img src="images/insta.png" title="Instagram"></a>
-                <a href="http://weibo.com/opggchina"><img src="images/weibo.png" title="Weibo"></a>
-                <a href="https://www.facebook.com/lolopgg"><img src="images/fb.png" title="Facebook"></a>
-                <a href="https://discord.gg/G7SC4FC"><img src="images/discord.png" title="Discord"></a>
+                <a href="https://twitter.com/globalopgg"><img src="images/twitter.png" title="Twitter" alt="Twitter"></a>
+                <a href="https://www.instagram.com/opgginc/"><img src="images/insta.png" title="Instagram" alt="Instagram"></a>
+                <a href="http://weibo.com/opggchina"><img src="images/weibo.png" title="Weibo" alt="Weibo"></a>
+                <a href="https://www.facebook.com/lolopgg"><img src="images/fb.png" title="Facebook" alt="Facebook"></a>
+                <a href="https://discord.gg/G7SC4FC"><img src="images/discord.png" title="Discord" alt="Discord"></a>
             </li>
         </ul>
         <p id="cp">© 2012-2017 OP.GG. Data based on League of legends Europe West.</p>
