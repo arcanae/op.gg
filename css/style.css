@@ -1,48 +1,51 @@
-
+/* All */
 
 body {
     margin: 0;  
 }
 
-header {
-    background: #09659A;
-    padding-top: 1.119em;
-    padding-bottom: 1.119em;
-
-}
-
-#linav {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: auto;
-    align-items: center;
-}
-
-#linav li {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-shadow: 0 0 1px #000;
-    padding-right: 2.6em;
-    font-size: 0.813em;
-    color: white;
-}
-
-#linav li:last-of-type  {
-    margin-left: auto;
-    text-shadow: none;
-    color: white;
-    padding-right: 10em;
-}
-
 a {
+    color: inherit;
     text-decoration:none; 
     color: inherit;
 } 
 
+figure {
+    margin: 0;
+}
 
-/*#opgg {
-    
-} */
+/* ~~~ Header ~~~ */
+
+header {
+    background: #09659A;
+    padding: 1.119em 0;
+}
+
+#linav {
+    list-style: none;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#linav li {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.813em;
+    padding-right: 2.6em;
+    text-shadow: 0 0 1px #000;
+}
+
+#linav li:last-of-type  {
+    margin-left: auto;
+    padding-right: 10em;
+    text-shadow: none;
+}
+
+/* ~~~ Main ~~~ */
+
+    /* ~~~ "Recherche" ~~~ */
 
 .rech {
     background: #1F8ECD;
@@ -63,7 +66,7 @@ a {
     padding-bottom: 1em;
 }
 
-#recherche{
+#recherche {
     font-family: helvetica, sans-serif;
     font-size: 1.125em;
     color: #444;
@@ -75,26 +78,22 @@ a {
     box-shadow: 2px 2px rgba(0,0,0,0.2); 
 }
 
-.bordel {
+    /* ~~~ "Articles" ~~~ */
+
+.h2bg {
     background: #EAEAEA;
     display: flex;
-}
-
-h3 {
-    font-family: Helvetica, sans-serif;
+    justify-content: center;
 }
 
 #h2 {
-    padding-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
+    color: #4a4a4a;
     font-family: Helvetica, sans-serif;
     font-size: 1.500em;
-    color: #4a4a4a;
+    padding-top: 1em;
 }
 
 .imgs {
-
     background: #EAEAEA;
     color: #444;
     display: flex;
@@ -106,14 +105,15 @@ h3 {
     padding-bottom: 3em;
 }
 
-.imgs h3 {
-    display: flex;
-    justify-content: center;
-}
-
 .imgs figure {
     list-style: none;
     width: 23.750em;
+}
+
+.imgs h3 {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .imgs p {
@@ -122,48 +122,41 @@ h3 {
     font-size: 0.875em; 
 }
 
-figure {
-    margin: 0;
-}
+/* ~~~ Footer ~~~ */
 
 footer {
     background: #0585CB;
 }
-#footul {
+
+footer ul {
     padding-top: 1.500em;
-    background: #0585CB;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer li {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.813em;
+    font-weight: bold;
+    list-style: none;
+    padding-right: 1.875em;
 }
 
 .souligner:hover{
     text-decoration: underline;
 }
 
-footer ul {
-    display: flex;
-}
-
-footer li {
-    justify-content: center;
-    padding-right: 1.875em;
-    list-style: none;
-    color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 0.813em;
-}
-
 #cp {
+    background: #0585CB;
+    color: #7dadda;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.688em;
     margin: 0;
     padding-bottom: 4em;
     display: flex;
-    background: #0585CB;
     justify-content: center;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 0.688em;
-    color: #7dadda;
 }
 
 #music {
