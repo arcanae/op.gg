@@ -24,7 +24,14 @@
                 <li><a href="https://euw.op.gg/statistics/champion/" style onclick>Statistics</a></li>
                 <li><a href="https://euw.op.gg/ranking/ladder/" style onclick>Leaderboards</a></li>
                 <li><a href="https://euw.op.gg/spectate/pro/" style onclick>Pro Matches</a></li>
-                <li id="fr">English▼</li>
+                <li id="select">
+                    <form method="post" action="traitement.php">
+                        <select name="languet" id="languet">
+                            <option value="english">English</option>
+                            <option value="français">Français</option>
+                        </select>
+                    </form>
+                </li>
             </ul>
             <!--    <img id="opgg" src="images/Icon-72.png" width="30px" title="Site originale"> -->
     </header>
@@ -68,7 +75,14 @@
         <ul>
             <li class="souligner"><a href="https://euw.op.gg/about/">About OP.GG</a></li>
             <li class="souligner"><a href="https://euw.op.gg/about/logos/">Logo History</a></li>
-            <li>English▼</li>
+            <li>
+                <form method="post" action="traitement.php">
+                    <select name="languet" id="langueb">
+                        <option value="english">English</option>
+                        <option value="français">Français</option>
+                    </select>
+                </form>
+            </li>
             <li>
                 <a href="https://twitter.com/globalopgg"><img src="images/twitter.png" title="Twitter"></a>
                 <a href="https://www.instagram.com/opgginc/"><img src="images/insta.png" title="Instagram"></a>

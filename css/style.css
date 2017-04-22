@@ -43,6 +43,15 @@ header {
     text-shadow: none;
 }
 
+#languet {
+    background: #09659A;
+    border: none;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
 /* ~~~ Main ~~~ */
 
     /* ~~~ "Recherche" ~~~ */
@@ -142,6 +151,13 @@ footer li {
     font-weight: bold;
     list-style: none;
     padding-right: 1.875em;
+}
+
+#langueb {
+    background: #0585CB;
+    border: none;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .souligner:hover{

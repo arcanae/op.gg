@@ -20,11 +20,18 @@
 <body>
     <header>
             <ul id="linav">
-                <li><a href="https://euw.op.gg/champion/statistics" style onclick>Champion Analytics <img src="../images/mny.gif"></a></li>
+                <li><a href="https://euw.op.gg/champion/statistics" style onclick>Analytiques Champion <img src="../images/mny.gif"></a></li>
                 <li><a href="https://euw.op.gg/statistics/champion/" style onclick>Statistiques</a></li>
                 <li><a href="https://euw.op.gg/ranking/ladder/" style onclick>Classements</a></li>
                 <li><a href="https://euw.op.gg/spectate/pro/" style onclick>Matchs Pro</a></li>
-                <li id="fr">Français▼</li>
+                <li id="fr">
+                    <form method="post" action="traitement.php">
+                        <select name="languet" id="languet">
+                            <option value="français">Français</option>
+                            <option value="english">English</option>
+                        </select>
+                    </form>
+                </li>
             </ul>
             <!--    <img id="opgg" src="images/Icon-72.png" width="30px" title="Site originale"> -->
     </header>
@@ -44,12 +51,12 @@
 
             <div class="imgs">
                 <figure>
-                    <h3>Live Games</h3>
+                    <h3>Parties en cours</h3>
                     <a href="https://euw.op.gg/summoner/userName=Lvl%2021%20Glaceon%20"><img src="../images/liveg.png"></a>
                     <p>Clicker sur le bouton "Live Game" durant une partie pour voir les informations et statistiques des autres invocateurs présent</p>
                 </figure>
                 <figure>
-                    <h3>Match Details</h3>
+                    <h3>Détails des matchs</h3>
                     <a href="https://euw.op.gg/summoner/userName=Lvl%2021%20Glaceon%20"><img src="../images/builds.png"></a>
                     <p>Voyez en un coup d'œuil comment les autres invocateurs choisissent leurs sets d'objets</p>
                 </figure>
@@ -66,7 +73,14 @@
         <ul>
             <li class="souligner"><a href="https://euw.op.gg/about/">A propos d'OP.GG</a></li>
             <li class="souligner"><a href="https://euw.op.gg/about/logos/">Historique des logos</a></li>
-            <li>français▼</li>
+            <li>
+                <form method="post" action="traitement.php">
+                    <select name="languet" id="langueb">
+                        <option value="français">Français</option>
+                        <option value="english">English</option>
+                    </select>
+                </form>
+            </li>
             <li>
                 <a href="https://twitter.com/globalopgg"><img src="../images/twitter.png" title="Twitter"></a>
                 <a href="https://www.instagram.com/opgginc/"><img src="../images/insta.png" title="Instagram"></a>
