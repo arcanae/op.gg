@@ -7,7 +7,6 @@ body {
 a {
     color: inherit;
     text-decoration:none; 
-    color: inherit;
 } 
 
 figure {
@@ -59,30 +58,30 @@ header {
 }
 
 #xr {
-    padding-top: 6.2em;
-    padding-bottom: 2.275em;
     display: block;
-    width: 26.875em;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 2.275em;
+    padding-top: 6.2em;
+    width: 26.875em;
 }
 
 #search {
+    padding-bottom: 1em;
     display: flex;
     justify-content: center;
-    padding-bottom: 1em;
 }
 
 #recherche {
+    background: #DBF0FC;
+    border: none;
+    border-radius: 0.250em;
+    box-shadow: 2px 2px rgba(0,0,0,0.2);
+    color: #444;
     font-family: helvetica, sans-serif;
     font-size: 1.125em;
-    color: #444;
-    border-radius: 0.250em;
-    border: none;
-    background: #DBF0FC;
     margin-bottom: 0.38em;
-    padding: 1em 15em 1em 1.5em;
-    box-shadow: 2px 2px rgba(0,0,0,0.2); 
+    padding: 1em 15em 1em 1.5em; 
 }
 
     /* ~~~ "Articles" ~~~ */
@@ -103,13 +102,10 @@ header {
 .imgs {
     background: #EAEAEA;
     color: #444;
+    padding: 1.225em 1.750em 3em 1.750em;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    padding-right: 1.750em;
-    padding-left: 1.750em;
-    padding-top: 1.225em;
-    padding-bottom: 3em;
+    flex-wrap: wrap; 
 }
 
 .imgs figure {
