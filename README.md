@@ -1,12 +1,13 @@
 # op.gg
-This is my 1st project for [simplon.co].
-The objective is to recreate a page from a website of our choice.
-The one I choosed is [op.gg](https://euw.op.gg/).
 
-We have to recreate using our own knowledge not just simple copying it from the page code.
-Using : 
+This is my 1st project for **Simplon.co**.    
+The objective is to recreate a page from a website of our choice.    
+The one I choosed is [op.gg](https://euw.op.gg/)'s home page.     
 
- - [x] An image
- - [x] Flex boxes
- - [ ] Forms
- - [x] Links
+We have to recreate it using our own knowledge, not just by simply copying it from the page code.   
+We need to use :   
+
+ - [x] an image
+ - [x] flexboxes
+ - [ ] forms
+ - [x] links
