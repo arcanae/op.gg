@@ -19,27 +19,42 @@
 
 <body>
     <header>
-            <ul id="linav">
-                <li><a href="https://euw.op.gg/champion/statistics" style onclick>Champion Analytics <img src="images/mny.gif" alt="new"></a></li>
-                <li><a href="https://euw.op.gg/statistics/champion/" style onclick>Statistics</a></li>
-                <li><a href="https://euw.op.gg/ranking/ladder/" style onclick>Leaderboards</a></li>
-                <li><a href="https://euw.op.gg/spectate/pro/" style onclick>Pro Matches</a></li>
-                <li id="select">
-                    <form class="topform" method="post">
-                        <select name="languet" id="languet" onChange="document.location = this.value">
+        <ul id="linav">
+            <li>
+                <a class="boxt" id="boxt" href="https://euw.op.gg/champion/statistics" style onclick>
+                    <h2>Champion Analytics </h2><img src="images/mny.gif" alt="new"></a>
+            </li>
+            <li>
+                <a class="boxt" id="boxt" href="https://euw.op.gg/statistics/champion/" style onclick>
+                    <h2>Statistics</h2>
+                </a>
+            </li>
+            <li>
+                <a class="boxt" id="boxt" href="https://euw.op.gg/ranking/ladder/" style onclick>
+                    <h2>Leaderboards</h2>
+                </a>
+            </li>
+            <li>
+                <a class="boxt" id="boxt" href="https://euw.op.gg/spectate/pro/" style onclick>
+                    <h2>Pro Matches</h2>
+                </a>
+            </li>
+            <li id="select">
+                <form class="topform" method="post">
+                    <select name="languet" id="languet" onChange="document.location = this.value">
                             <option value="index.html">English</option>
                             <option value="fr/index.html">Français</option>
                         </select>
-                    </form>
-                </li>
-            </ul>
+                </form>
+            </li>
+        </ul>
     </header>
 
     <main>
         <section class="rech">
             <img id="xr" src="images/xr.PNG" title="Rakan, The Charmer & Xayah, The Rebel" alt="Xayah & Rakan">
             <form class="search" id="search" method="post" action="traitement.php">
-                <input type="text" name="recherche" id="recherche" placeholder="Name1, Name2, Name3,..."/>
+                <input type="text" name="recherche" id="recherche" placeholder="Name1, Name2, Name3,..." />
             </form>
         </section>
 

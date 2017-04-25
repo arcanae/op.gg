@@ -17,7 +17,7 @@ figure {
 
 header {
     background: #09659A;
-    padding: 1.119em 0;
+   /* padding: 1.119em 0; */
 }
 
 #linav {
@@ -32,14 +32,33 @@ header {
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.813em;
-    padding-right: 2.6em;
     text-shadow: 0 0 1px #000;
+    display: flex;
 }
 
 #linav li:last-of-type  {
     margin-left: auto;
     padding-right: 10em;
     text-shadow: none;
+}
+
+
+.boxt{
+    height: 52px;
+    margin-right: 2.6em;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#boxt:hover{
+    border-bottom: 0.3em solid white;
+    transition: all 0.15s;
+}
+
+.boxt h2 {
+    font-weight: normal;
+    font-size: 1em;
 }
 
 #languet {
