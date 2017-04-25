@@ -20,10 +20,10 @@
 <body>
     <header>
             <ul id="linav">
-                <li><a href="https://euw.op.gg/champion/statistics" style onclick>Analytiques Champion <img src="../images/mny.gif" alt="new"></a></li>
-                <li><a href="https://euw.op.gg/statistics/champion/" style onclick>Statistiques</a></li>
-                <li><a href="https://euw.op.gg/ranking/ladder/" style onclick>Classements</a></li>
-                <li><a href="https://euw.op.gg/spectate/pro/" style onclick>Matchs Pro</a></li>
+                <li><a class="boxt" href="https://euw.op.gg/champion/statistics" style onclick>Analytiques Champion <img src="../images/mny.gif" alt="new"></a></li>
+                <li><a class="boxt" href="https://euw.op.gg/statistics/champion/" style onclick>Statistiques</a></li>
+                <li><a class="boxt" href="https://euw.op.gg/ranking/ladder/" style onclick>Classements</a></li>
+                <li><a class="boxt" href="https://euw.op.gg/spectate/pro/" style onclick>Matchs Pro</a></li>
                 <li id="fr">
                     <form class="topform" method="post">
                         <select name="languet" id="languet" onChange="document.location = this.value">
@@ -36,12 +36,12 @@
     </header>
 
     <main>
-        <section class="rech">
+        <div class="rech">
             <img id="xr" src="../images/xr.PNG" title="Rakan, The Charmer & Xayah, The Rebel" alt="Xayah & Rakan">
             <form class="search" id="search" method="post" action="traitement.php">
                 <input type="text" name="recherche" id="recherche" placeholder="Nom1, Nom2, Nom3,..."/>
             </form>
-        </section>
+        </div>
 
         <section class="articles">
             <div class="h2bg">
