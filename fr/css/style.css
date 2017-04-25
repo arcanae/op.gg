@@ -55,20 +55,22 @@ header {
 
 .rech {
     background: #1F8ECD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #xr {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 2.275em;
-    padding-top: 6.2em;
-    width: 26.875em;
+    padding-bottom: 2.8vw;
+    padding-top: 8vw;
+    width: 33vw;
 }
 
 #search {
     padding-bottom: 1em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -79,9 +81,10 @@ header {
     box-shadow: 2px 2px rgba(0,0,0,0.2);
     color: #444;
     font-family: helvetica, sans-serif;
-    font-size: 1.125em;
+    font-size: 1.5vw;
     margin-bottom: 0.38em;
-    padding: 1em 15em 1em 1.5em; 
+    padding: 1em 0 1em 1.5em; 
+    width: 38vw;
 }
 
     /* ~~~ "Articles" ~~~ */
@@ -110,7 +113,7 @@ header {
 
 .imgs figure {
     list-style: none;
-    width: 23.750em;
+    width: 30vw;
 }
 
 .imgs h3 {
@@ -118,6 +121,10 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.imgs img {
+    width: 30vw
+}    
 
 .imgs p {
     color: #6c6c6c;
@@ -132,7 +139,8 @@ footer {
 }
 
 footer ul {
-    padding-top: 1.500em;
+    margin-top: 0;
+    padding-top: 2.5em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
