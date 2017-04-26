@@ -18,32 +18,32 @@
 </head>
 
 <body>
-    <header>
-            <ul id="linav">
-                <li><a class="boxt" href="https://euw.op.gg/champion/statistics" style onclick>Analytiques Champion <img src="../images/mny.gif" alt="new"></a></li>
-                <li><a class="boxt" href="https://euw.op.gg/statistics/champion/" style onclick>Statistiques</a></li>
-                <li><a class="boxt" href="https://euw.op.gg/ranking/ladder/" style onclick>Classements</a></li>
-                <li><a class="boxt" href="https://euw.op.gg/spectate/pro/" style onclick>Matchs Pro</a></li>
-                <li id="fr">
-                    <form class="topform" method="post">
-                        <select name="languet" id="languet" onChange="document.location = this.value">
+    <nav>
+        <ul id="linav">
+            <li><a class="boxt" href="https://euw.op.gg/champion/statistics">Analytiques Champion <img src="../images/mny.gif" alt="new"></a></li>
+            <li><a class="boxt" href="https://euw.op.gg/statistics/champion/">Statistiques</a></li>
+            <li><a class="boxt" href="https://euw.op.gg/ranking/ladder/">Classements</a></li>
+            <li><a class="boxt" href="https://euw.op.gg/spectate/pro/">Matchs Pro</a></li>
+            <li id="fr">
+                <form class="topform" method="post">
+                    <select name="languet" id="languet" onChange="document.location = this.value">
                             <option value="../fr/index.html">Français</option>
                             <option value="../index.html">English</option>
-                        </select>
-                    </form>
-                </li>
-            </ul>
-    </header>
+                    </select>
+                </form>
+            </li>
+        </ul>
+    </nav>
 
     <main>
-        <div class="rech">
+        <header>
             <img id="xr" src="../images/xr.PNG" title="Rakan, The Charmer & Xayah, The Rebel" alt="Xayah & Rakan">
             <form class="search" id="search" method="post" action="traitement.php">
-                <input type="text" name="recherche" id="recherche" placeholder="Nom1, Nom2, Nom3,..."/>
+                <input type="text" name="recherche" id="recherche" placeholder="Nom1, Nom2, Nom3,..." />
             </form>
-        </div>
+        </header>
 
-        <section class="articles">
+        <article>
             <div class="h2bg">
                 <p id="h2">OP.GG transmet des données sur des millions de joueurs de League of Legends à l'échelle mondiale</p>
             </div>
@@ -52,7 +52,8 @@
                 <figure>
                     <h3>Parties en cours</h3>
                     <a href="https://euw.op.gg/summoner/userName=Lvl%2021%20Glaceon%20"><img src="../images/liveg.png" alt="Live Games"></a>
-                    <p>Cliquer sur le bouton "Live Game" durant une partie pour voir les informations et statistiques des autres invocateurs présents</p>
+                    <p>Cliquer sur le bouton "Live Game" durant une partie pour voir les informations et statistiques des autres
+                        invocateurs présents</p>
                 </figure>
                 <figure>
                     <h3>Détails des matchs</h3>
@@ -62,10 +63,11 @@
                 <figure>
                     <h3>Analytiques Champion</h3>
                     <a href="https://euw.op.gg/champion/__randomchampion__/statistics/"><img src="../images/champ.png" alt="Analytics"></a>
-                    <p>Augmenter votre connaissance en utilisant notre outil d'analyse comprenant des données basées sur des millions de parties</p>
+                    <p>Augmenter votre connaissance en utilisant notre outil d'analyse comprenant des données basées sur des
+                        millions de parties</p>
                 </figure>
             </div>
-        </section>
+        </article>
     </main>
 
     <footer>
@@ -73,7 +75,7 @@
             <li class="souligner"><a href="https://euw.op.gg/about/">A propos d'OP.GG</a></li>
             <li class="souligner"><a href="https://euw.op.gg/about/logos/">Historique des logos</a></li>
             <li>
-                <form class-"botform" method="post">
+                <form class- "botform" method="post">
                     <select name="langueb" id="langueb" onChange="document.location = this.value">
                         <option value="../fr/index.html">Français</option>
                         <option value="../index.html">English</option>
@@ -89,7 +91,7 @@
             </li>
         </ul>
         <p id="cp">© 2012-2017 OP.GG. Data based on League of legends Europe West.</p>
-    <!-- <audio id="music" controls="controls" src="images/dangerous.mp3" autoplay></audio> -->
+        <!-- <audio id="music" controls="controls" src="images/dangerous.mp3" autoplay></audio> -->
     </footer>
 
 </body>

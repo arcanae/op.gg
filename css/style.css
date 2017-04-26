@@ -13,9 +13,9 @@ figure {
     margin: 0;
 }
 
-/* ~~~ Header ~~~ */
+/* ~~~ Nav ~~~ */
 
-header {
+nav {
     background: #09659A;
 }
 
@@ -42,6 +42,8 @@ header {
 
 .boxt{
     border-bottom: 0.3em solid transparent;
+    font-size: 1em;
+    font-weight: normal;
     height: 52px;
     margin-right: 2.6em;
     display: flex;
@@ -52,11 +54,6 @@ header {
 .boxt:hover{
     border-bottom: 0.3em solid white;
     transition: all 0.3s;
-}
-
-.boxt h2 {
-    font-size: 1em;
-    font-weight: normal;
 }
 
 #languet {
@@ -70,7 +67,7 @@ header {
 
     /* ~~~ "Recherche" ~~~ */
 
-.rech {
+header {
     background: #1F8ECD;
     display: flex;
     align-items: center;
