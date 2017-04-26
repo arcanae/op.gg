@@ -41,12 +41,12 @@ header {
 }
 
 .boxt{
+    border-bottom: 0.3em solid transparent;
     height: 52px;
     margin-right: 2.6em;
     display: flex;
     align-content: center;
     align-items: center;
-    border-bottom: 0.3em solid transparent;
 }
 
 .boxt:hover{
@@ -55,8 +55,8 @@ header {
 }
 
 .boxt h2 {
-    font-weight: normal;
     font-size: 1em;
+    font-weight: normal;
 }
 
 #languet {
