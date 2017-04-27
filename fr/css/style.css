@@ -1,17 +1,18 @@
 /* All */
 
 body {
-    margin: 0;  
+    margin: 0;
 }
 
 a {
     color: inherit;
-    text-decoration:none; 
-} 
+    text-decoration: none;
+}
 
 figure {
     margin: 0;
 }
+
 
 /* ~~~ Nav ~~~ */
 
@@ -34,13 +35,13 @@ nav {
     text-shadow: 0 0 1px #000;
 }
 
-#linav li:last-of-type  {
+#linav li:last-of-type {
     margin-left: auto;
     padding-right: 10em;
     text-shadow: none;
 }
 
-.boxt{
+.boxt {
     border-bottom: 0.3em solid transparent;
     font-size: 1em;
     font-weight: normal;
@@ -51,7 +52,7 @@ nav {
     align-items: center;
 }
 
-.boxt:hover{
+.boxt:hover {
     border-bottom: 0.3em solid white;
     transition: all 0.3s;
 }
@@ -63,9 +64,11 @@ nav {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
 /* ~~~ Main ~~~ */
 
-    /* ~~~ "Recherche" ~~~ */
+
+/* ~~~ "Recherche" ~~~ */
 
 header {
     background: #1F8ECD;
@@ -92,16 +95,17 @@ header {
     background: #DBF0FC;
     border: none;
     border-radius: 0.250em;
-    box-shadow: 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
     color: #444;
     font-family: helvetica, sans-serif;
     font-size: 1.5vw;
     margin-bottom: 0.38em;
-    padding: 1em 0 1em 1.5em; 
+    padding: 1em 0 1em 1.5em;
     width: 38vw;
 }
 
-    /* ~~~ "Articles" ~~~ */
+
+/* ~~~ "Articles" ~~~ */
 
 .h2bg {
     background: #EAEAEA;
@@ -122,7 +126,7 @@ header {
     padding: 1.225em 1.750em 3em 1.750em;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .imgs figure {
@@ -138,13 +142,14 @@ header {
 
 .imgs img {
     width: 30vw
-}    
+}
 
 .imgs p {
     color: #6c6c6c;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 0.875em; 
+    font-size: 0.875em;
 }
+
 
 /* ~~~ Footer ~~~ */
 
@@ -176,7 +181,7 @@ footer li {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.souligner:hover{
+.souligner:hover {
     text-decoration: underline;
 }
 
