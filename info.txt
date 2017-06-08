@@ -1,0 +1,3 @@
+This is my 1st project for Simplon.co.    
+The objective is to recreate a page from a website of our choice.    
+The one I choosed is op.gg's home page. 
