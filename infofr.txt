@@ -1,0 +1,3 @@
+Ceci est mon 1er projet pour Simplon.co.
+L'objectif est de récréer une page d'un site de notre choix.
+Celle que j'ai choisie est la page d'acceuil de op.gg.
